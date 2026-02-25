@@ -4,13 +4,6 @@ Visualization of human slices
 
 # Interactive Volume Slicer (ModernGL) — MPR Plane UI + Heap/Brush Reveal + 3D Gizmo
 
-Demo videos:
-[![MPR Plane UI Demo](https://img.youtube.com/vi/VDaAYFwiu9o/hqdefault.jpg)](https://youtu.be/VDaAYFwiu9o)
-
-[![3D Gizmo + View Cube Demo](https://img.youtube.com/vi/C_Gu3309b28/hqdefault.jpg)](https://youtu.be/C_Gu3309b28)
-
-[![Heap / Brush Reveal Demo](https://img.youtube.com/vi/5wpkK5IAVzM/hqdefault.jpg)](https://youtu.be/5wpkK5IAVzM)
-
 This project turns a stack of 2D medical slices into an interactive **3D volume viewer** with:
 
 - **MPR plane slicing** (free-rotating plane through the volume)
@@ -20,6 +13,23 @@ This project turns a stack of 2D medical slices into an interactive **3D volume 
 
 The volume data used in my workflow comes from the **Visible Human Project** PNG slices (abdomen/fullbody stacks), but the pipeline works for any consistent slice folder.
 
+## Demo Videos
+
+<p align="center">
+  <a href="https://youtu.be/VDaAYFwiu9o">
+    <img src="https://img.youtube.com/vi/VDaAYFwiu9o/hqdefault.jpg" width="32%" />
+  </a>
+  <a href="https://youtu.be/C_Gu3309b28">
+    <img src="https://img.youtube.com/vi/C_Gu3309b28/hqdefault.jpg" width="32%" />
+  </a>
+  <a href="https://youtu.be/5wpkK5IAVzM">
+    <img src="https://img.youtube.com/vi/5wpkK5IAVzM/hqdefault.jpg" width="32%" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Click a thumbnail to open the video on YouTube.</sub>
+</p>
 ---
 
 ## Features
@@ -45,3 +55,17 @@ The volume data used in my workflow comes from the **Visible Human Project** PNG
   - **X / Y / Z** → snap the slicing plane normal to axis-aligned orientations
   - **1–6** → snap to cube faces (±X ±Y ±Z), like Unity view cube
   - Cube faces also support direct snapping by clicking the cube
+
+## Resources / References
+
+- **Visible Human Project (NLM/NIH)**
+  - Project overview: [NLM Visible Human Project](https://www.nlm.nih.gov/research/visible/visible_human.html)
+  - Getting the data: [Visible Human — Getting the Data](https://www.nlm.nih.gov/research/visible/getting_data.html)
+
+- **ModernGL**
+  - Docs: [ModernGL Documentation](https://moderngl.readthedocs.io/en/latest/)
+  - GitHub: [moderngl/moderngl](https://github.com/moderngl/moderngl)
+
+- **moderngl-window**
+  - Docs: [moderngl-window Documentation](https://moderngl-window.readthedocs.io/)
+  - GitHub: [moderngl/moderngl-window](https://github.com/moderngl/moderngl-window)
