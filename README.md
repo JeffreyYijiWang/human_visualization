@@ -13,24 +13,36 @@ This project turns a stack of 2D medical slices into an interactive **3D volume 
 
 The volume data used in my workflow comes from the **Visible Human Project** PNG slices (abdomen/fullbody stacks), but the pipeline works for any consistent slice folder.
 
+# Process
+
+I first wanted to figure out how to take all the parsed images visualize moving in one dimension(x,y,z) along the slices, and applying a heap map
+
+![MPR heap mapp diagram screenshot](images/diagram.jpeg)
+
+<p align="center">
+ <a href="https://youtu.be/C_Gu3309b28">
+    <img src="https://img.youtube.com/vi/C_Gu3309b28/hqdefault.jpg" width="32%" />
+  </a>
+</p>
+
+I then built my own thresholding tool using openCV to save different threshold setting to then create masks and clipped images.
+
+![MPR Plane UI screenshot](images/Segmentation%20human%20slices.png)
+
 ## Demo Videos
 
 <p align="center">
   <a href="https://youtu.be/VDaAYFwiu9o">
     <img src="https://img.youtube.com/vi/VDaAYFwiu9o/hqdefault.jpg" width="32%" />
   </a>
-  <a href="https://youtu.be/C_Gu3309b28">
-    <img src="https://img.youtube.com/vi/C_Gu3309b28/hqdefault.jpg" width="32%" />
-  </a>
-  <a href="https://youtu.be/5wpkK5IAVzM">
-    <img src="https://img.youtube.com/vi/5wpkK5IAVzM/hqdefault.jpg" width="32%" />
-  </a>
+ 
 </p>
 
 <p align="center">
-  <sub>Click a thumbnail to open the video on YouTube.</sub>
+    <a href="https://youtu.be/5wpkK5IAVzM">
+        <img src="https://img.youtube.com/vi/5wpkK5IAVzM/hqdefault.jpg" width="32%" />
+    </a>
 </p>
----
 
 ## Features
 
