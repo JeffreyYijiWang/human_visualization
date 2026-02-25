@@ -21,7 +21,7 @@ I first wanted to figure out how to take all the parsed images visualize moving 
 
 <p align="center">
  <a href="https://youtu.be/C_Gu3309b28">
-    <img src="https://img.youtube.com/vi/C_Gu3309b28/hqdefault.jpg" width="32%" />
+    <img src="https://img.youtube.com/vi/C_Gu3309b28/hqdefault.jpg" width="100%" />
   </a>
 </p>
 
@@ -33,14 +33,14 @@ I then built my own thresholding tool using openCV to save different threshold s
 
 <p align="center">
   <a href="https://youtu.be/VDaAYFwiu9o">
-    <img src="https://img.youtube.com/vi/VDaAYFwiu9o/hqdefault.jpg" width="32%" />
+    <img src="https://img.youtube.com/vi/VDaAYFwiu9o/hqdefault.jpg" width="100%"/>
   </a>
  
 </p>
 
 <p align="center">
     <a href="https://youtu.be/5wpkK5IAVzM">
-        <img src="https://img.youtube.com/vi/5wpkK5IAVzM/hqdefault.jpg" width="32%" />
+        <img src="https://img.youtube.com/vi/5wpkK5IAVzM/hqdefault.jpg" width="100%" />
     </a>
 </p>
 
